@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lunasima&display=swap");
+
+body {
+  background: #121212;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.under-container {
+  border-radius: 24px;
+  background: linear-gradient(
+    136deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(15px);
+  width: 1680px;
+  height: 920px;
+  flex-shrink: 0;
+}
+.para {
+  font-family: "Lunasima", sans-serif;
+  color: white;
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 140px;
+  max-width: 500px;
+}
+.prasoon-color {
+  background: var(
+    --yellow-red-gradient,
+    linear-gradient(90deg, #f59e0b 0%, #ef4444 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.prasoon-color:hover {
+  background: var(
+    --yellow-red-gradient,
+    linear-gradient(90deg, #1b41c9bb 0%, #a600ffce 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.dev-color {
+  background: var(
+    --purple-pink-gradient-2,
+    linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home-body h4 {
+  font-family: "Lunasima", sans-serif;
+  color: white;
+  opacity: 80%;
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 400px;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.github-btn {
+  margin-left: 110px;
+  border-radius: 6px;
+  background: #9f5500;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.github-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.github-btn:hover {
+  background: #ffaa33;
+}
+
+.img {
+  position: absolute;
+  top: 300px;
+  height: 500px;
+  right: 130px;
+  transform: translateY(-50%);
+}
+
+.home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
