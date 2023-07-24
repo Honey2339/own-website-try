@@ -83,8 +83,9 @@ body {
   margin-left: 110px;
   border-radius: 6px;
   background: #9f5500;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 13px 30px;
+  font-size: 17px;
+  font-weight: 600;
   border: none;
   cursor: pointer;
 }
@@ -95,7 +96,7 @@ body {
 }
 
 .github-btn:hover {
-  background: #ffaa33;
+  animation: btncolor 5s ease infinite;
 }
 
 .img {
@@ -117,4 +118,48 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@keyframes btncolor {
+  0% {
+    background: var(
+      --purple-pink-gradient-2,
+      linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%)
+    );
+  }
+  100% {
+    background: var(
+      --yellow-red-gradient,
+      linear-gradient(90deg, #1b41c9bb 0%, #a600ffce 100%)
+    );
+  }
+}
+
+.info {
+  color: gray;
+  opacity: 50%;
+  font-family: "Lunasima", sans-serif;
+  max-width: 400px;
+  position: absolute;
+  bottom: 50px;
+  left: 650px;
+}
+.donut {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.sphere {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+.pills {
+  position: absolute;
+  bottom: 20px;
+}
+.square {
+  position: absolute;
+  bottom: 20px;
+  left: 400px;
 }

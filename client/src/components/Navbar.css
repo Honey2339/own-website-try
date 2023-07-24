@@ -42,7 +42,7 @@
   transform: scaleX(1);
 }
 
-svg {
+.moon {
   height: 35px;
   width: 35px;
   stroke: rgb(255, 255, 255);
@@ -50,7 +50,7 @@ svg {
   fill-opacity: 1%;
   stroke-width: 1px;
   stroke-dasharray: 500px;
-  animation: draw 100s linear infinite, fill 15s linear 8s infinite,
+  animation: draw 400s ease infinite, fill 15s linear 8s infinite,
     color 15s linear 6s infinite;
 }
 
